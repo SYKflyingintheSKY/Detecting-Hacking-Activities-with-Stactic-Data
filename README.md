@@ -9,6 +9,6 @@ In this project, the memory activity and the process activity data are provided 
 data, there is a binary label and a multi-class label, one for indicating whether the activity is an attack or not, and the other for indicating which kind of attack the activity is under.
 
 # Package Restrictions
-For the data pre-processing and the machine learning processes: use only PySpark SQL / MLlib / ML packages. 
-For the data visualisations: use only Matplotlib packages 
+For the data pre-processing and the machine learning processes: use only PySpark SQL / MLlib / ML packages.  <br>
+For the data visualisations: use only Matplotlib packages. <br>
 Excessive usage of Pandas for data processing is discouraged.
