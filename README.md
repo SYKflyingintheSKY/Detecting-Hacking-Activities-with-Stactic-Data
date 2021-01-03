@@ -25,3 +25,5 @@ Excessive usage of Pandas for data processing is discouraged.
 * Task 2.3: 
 1) When Discussing on which pipeline model is better for both Process & Memory, key points on metric performance, overfitting issue, interpretability, benefits of using Boosting could have been made.
 2) ROC curves under different thresholds for both Process & Memory could have been plotted for checking model performance.
+
+* Task 3: Adding information as follows - The first 7 steps are just about initializing the centroids using kmeans++. The next few steps are what perform the iterations and decide the final cluster centers.
