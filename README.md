@@ -12,3 +12,9 @@ data, there is a binary label and a multi-class label, one for indicating whethe
 For the data pre-processing and the machine learning processes: use only PySpark SQL / MLlib / ML packages.  <br>
 For the data visualisations: use only Matplotlib packages. <br>
 Excessive usage of Pandas for data processing is discouraged.
+
+# Environment
+* Ubuntu 20.04 LTS (Focal Fossa) 
+* Python (3.8) 
+* Jupyter Notebook 
+* Apache Spark (3.0.0) 
