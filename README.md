@@ -1,3 +1,9 @@
+# Environment
+* Ubuntu 20.04 LTS (Focal Fossa) 
+* Python (3.8) 
+* Jupyter Notebook 
+* Apache Spark (3.0.0) 
+
 # Aim
 Deploying machine learning models which can integrate with Spark cluster to process large amounts of stactic data and detect any potential hacks
 
@@ -13,8 +19,9 @@ For the data pre-processing and the machine learning processes: use only PySpark
 For the data visualisations: use only Matplotlib packages. <br>
 Excessive usage of Pandas for data processing is discouraged.
 
-# Environment
-* Ubuntu 20.04 LTS (Focal Fossa) 
-* Python (3.8) 
-* Jupyter Notebook 
-* Apache Spark (3.0.0) 
+# Points which can be improved
+* Task 2.2: Creating a custom Transformer for the column “POLI” so that the types of policy, [“norm”, “btch”, “idle”, “fifo”, “rr”, “0”, “-”], can be mapped to the following numbers, [0, 1, 2, 3, 4, 5, 6] - Creating a custom Transform class inheriting from the PySpark ML Transformer, HasInputCol, HasOutputCol, DefaultParamsReadable, DefaultParamsWritable class, so that it can be included in the ML Pipeline in the next step. The class should allow users to specify the inputCol, outputCol, originalValues, and newValues parameters when initiating the object.
+
+* Task 2.3: 
+1) When Discussing on which pipeline model is better for both Process & Memory, key points on metric performance, overfitting issue, interpretability, benefits of using Boosting could have been made.
+2) ROC curves under different thresholds for both Process & Memory could have been plotted for checking model performance.
